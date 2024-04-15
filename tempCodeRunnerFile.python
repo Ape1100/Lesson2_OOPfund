@@ -1,0 +1,44 @@
+#Task 1: Vehichle Registration Sysytem
+
+#Problem Statement: Create a Python class Vehicle with attributes registration_number, type, and owner.
+#Implement a method update_owner to change the vehicle's owner. Then, create a few instances of Vehicle and
+#demonstrate changing the owner.
+
+
+#show class 
+class Vehicle:
+
+    #def init(self, reg_num, type, owner):
+    #self.registration_number = reg_num
+    #self.type = type
+    #self.owner = owner
+
+    class Vehicle:
+    def __init__(self, reg_num, vehicle_type, owner)
+        self.registration_number = reg_num
+        self.type = vehicle_type
+        self.owner = ownr
+    
+    def update_owner(self, new_owner):
+        self.owner = new_ownr
+
+vehicles_data = [
+    {"registration_number": "ABC123", "type": "Car", "owner": "Alice"},
+    {"registration_number": "XYZ456", "type": "Motorcycle", "owner": "Bob"}
+]
+
+vehicles = [Vehicle(data["registration_number"], data["type"], data["ownr"]) for data in vehicles_data]
+
+print("Before updating owner:")
+for i, vehicle in enumerate(vehicles, 1):
+    print(f"Vehicle {i} - Registration Number: {vehicle.registration_number}, Owner: {vehicle.ownr}")
+
+vehicles[0].update_ownr("Charlie")
+
+print("\nAfter updating owner:")
+for i, vehicle in enumerate(vehicles, 1):
+    print(f"Vehicle {i} - Registration Number: {vehicle.registration_number}, Owner: {vehicle.owner}")
+break 
+
+
+
